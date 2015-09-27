@@ -4,6 +4,8 @@ version := "0.1.0"
 
 scalaVersion := "2.11.7"
 
+crossScalaVersions := Seq("2.10.5", "2.11.7")
+
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play" % "2.4.3" % "provided",
   "com.netflix.ribbon" % "ribbon-loadbalancer" % "2.1.1" exclude("commons-logging", "commons-logging"),
