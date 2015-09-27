@@ -1,4 +1,4 @@
-package io.derjan.ws.loadbalancer
+package io.derjan.play.ws.loadbalancer
 
 import org.scalatest._
 

@@ -1,4 +1,4 @@
-package io.derjan.ws.loadbalancer
+package io.derjan.play.ws.loadbalancer.observable
 
 import org.scalatest._
 import rx.Observable
@@ -6,8 +6,8 @@ import rx.Observable
 import scala.concurrent._
 import scala.concurrent.duration._
 
-class ObservableConversionsSpec extends FunSpec with Matchers {
-  import ObservableConversions._
+class ConversionsSpec extends FunSpec with Matchers {
+  import Conversions._
 
   describe("Observable") {
     it("should be converted to a future") {

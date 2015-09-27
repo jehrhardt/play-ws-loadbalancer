@@ -1,4 +1,4 @@
-package io.derjan.ws.loadbalancer
+package io.derjan.play.ws.loadbalancer.observable
 
 import rx.Observable.OnSubscribe
 
@@ -7,7 +7,7 @@ import scala.concurrent.{Future, Promise}
 import rx.{Subscriber, Observable}
 import rx.lang.scala
 
-object ObservableConversions {
+object Conversions {
   implicit def toFuture[T](observable: Observable[T]): Future[T] = {
     import scala.JavaConversions._
 
